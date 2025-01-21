@@ -57,6 +57,7 @@ function pressButton(button){
 }
 
 function toggleLiveSplitTimer(){
+  //assumes your livesplit timer hotkey is set to ctrl+shift+q
   robot.keyToggle("control", "down");
   robot.keyToggle("shift", "down");
   robot.keyToggle("q", "down");

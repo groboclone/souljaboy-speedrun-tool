@@ -1,0 +1,20 @@
+{
+  "name": "souljaboytas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuilding": "electron-rebuild -f -w robotjs"
+  },
+  "author": "groboclone",
+  "license": "ISC",
+  "dependencies": {
+    "@jitsi/robotjs": "^0.6.13",
+    "electron": "^9.4.4",
+    "robotjs": "^0.6.0"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^3.2.9"
+  }
+}

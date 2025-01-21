@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Souljaboy Speedrun Tool</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 10px;
+    }
+    h1 {
+      margin: 0;
+      font-size:20px;
+    }
+    #coordinates {
+      font-size: 24px;
+      color: #333;
+      margin-top: 10px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 5px 10px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mouse Coordinates</h1>
+  <div id="coordinates">X: 0, Y: 0</div>
+  <button id="getCymbal">Get Cymbal Sampler Coordinates</button>
+  <form id="cymbalCoordsForm" style="margin-top: 10px;">
+    <label for="xCoord">X:</label>
+    <input type="number" id="xCoord" name="xCoord" required style="width: 10%;">
+    <label for="yCoord">Y:</label>
+    <input type="number" id="yCoord" name="yCoord" required style="width: 10%;">
+    <button type="submit">Set Cymbal Coords</button>
+  </form>
+  <button id="startButton">Start</button>
+  <script src="renderer.js"></script>
+</body>
+</html>

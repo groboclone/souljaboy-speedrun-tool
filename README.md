@@ -1,6 +1,6 @@
 # Soulja Boy Speedrun Tool
 
-This project is a desktop application built using Node.js and Electron. It is designed to automate the creation of the beat for 'Crank That' by Soulja Boy inside FL Studio. It is highly likely that unless you are willing to manually edit all the of mouse co-ordinates in the main.js file to correspond with your own FL Studio layout and screen resolution, it will not work as desired at all and will instead wreak untold havoc. Nonetheless in case anyone is mad enough to try, I am sharing the code. Below are instructions on how to set it up and run it.
+This project, as seen in [this video](https://www.youtube.com/watch?v=DybozXDg00I), is a desktop application built using Node.js and Electron. It is designed to automate the creation of the beat for 'Crank That' by Soulja Boy inside FL Studio. It is highly likely that unless you are willing to manually edit all the of mouse co-ordinates in the main.js file to correspond with your own FL Studio layout and screen resolution, it will not work as desired at all and will instead wreak untold havoc. Nonetheless in case anyone is mad enough to try, I am sharing the code. Below are instructions on how to set it up and run it.
 
 ---
 

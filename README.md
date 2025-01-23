@@ -62,8 +62,9 @@ This will download and set up all the required packages.
 ### FL Studio Prerequisites
 1. Make sure "typing keyboard to piano keyboard" is disabled.
 2. Make sure picker panel is enabled.
-3. Make sure tempo is set to 140.
-4. Make sure your ['Crank That' sample folder](https://drive.google.com/drive/u/0/folders/1dx0fPBhkKi5XwLYJwMD7tXUqeh-C3xyO) is open in the browser and 808 clav is selected.
+3. Open the graph editor on the default sampler and make sure 'Note Pitch' view is selected
+4. Make sure tempo is set to 140.
+5. Make sure your ['Crank That' sample folder](https://drive.google.com/drive/u/0/folders/1dx0fPBhkKi5XwLYJwMD7tXUqeh-C3xyO) is open in the browser and 808 clav is selected.
 
 
 ### Setting Cymbal Sampler Coordinates
